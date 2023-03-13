@@ -15,7 +15,7 @@ The code contains the architecture of the network and an example for the trainin
 It can be used for both, grading curve classification and grading curve regression. Please adapt the settings and variables in main_Train.py accordingly.
 
 ### Classification
-For classification pruposes, set the task variable in main_Train.py to 'Classification'. Training requires training data in form of images and a grading curve class associated to each image. The images have to be located in one folder with 'fldrImgTrain' linking to the path of that folder and a folder 'fldrLabel' which to contain .txt files with the same name as the images. Each txt file contains a single integer value between [0, nClasses] corresponding to the class of the image.
+For classification purposes, set the task variable in main_Train.py to 'Classification'. Training requires training data in form of images and a grading curve class associated to each image. The images have to be located in one folder with 'fldrImgTrain' linking to the path of that folder and a folder 'fldrLabel' which to contain .txt files with the same name as the images. Each txt file contains a single integer value between [0, nClasses] corresponding to the class of the image.
 
 An example data set for classification purposes of concrete aggregate can be found here:  https://doi.org/10.25835/etbkk0pb
 
